@@ -1,5 +1,4 @@
 /system          ext4    /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/system
-/system_image    emmc    /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/system
 /data            ext4    /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata    flags=encryptable=/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/metadata
 /cache           ext4    /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/cache
 /boot            emmc    /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/boot
@@ -7,5 +6,5 @@
 /misc            emmc    /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/para
 
 /external_sd     auto    /dev/block/mmcblk1p1                        /dev/block/mmcblk1
-/usb-otg         auto    /dev/block/sda1                             /dev/block/sda        flags=display="USB OTG";storage;wipeingui;removable
+/usb-otg         auto    /dev/block/sda1                             /dev/block/sda        flags=storage;wipeingui;removable
 

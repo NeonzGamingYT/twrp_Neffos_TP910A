@@ -27,6 +27,3 @@ PRODUCT_BRAND := Neffos
 PRODUCT_MODEL := Neffos_Y7
 PRODUCT_MANUFACTURER := TP-Link
 
-# Verity 
-PRODUCT_SUPPORTS_BOOT_SIGNER := true
-PRODUCT_VERITY_SIGNING_KEY := build/target/product/security/verity
